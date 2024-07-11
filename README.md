@@ -13,7 +13,7 @@ cd power_profiler
 make
 ```
 
-This builds the *power_measure* binary that can be run by passing the output_file to write the power measurements, the maximum time that the program will collect power in seconds, and the sampling frequency in Hz. 
+This builds the *power_measure* binary that can be run by passing the output_file where the power measurements will be written, the maximum time that the program will collect power in seconds, and the sampling frequency in Hz. 
 
 To run
 ```
