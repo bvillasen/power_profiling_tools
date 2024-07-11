@@ -41,7 +41,7 @@ srun -u -n 8 --ntasks-per-node=8 --gpus-per-node=8 --cpu-bind=verbose \
 
 echo "Finished job. $(date)"
 
-# Stop the power profile banckground processes
+# Stop the power profile banckground processes right after the app finishes
 bash $POWER_PROFILE_PATH/stop_process.sh 
 
 echo "Exiting slurm job. $(date)"
